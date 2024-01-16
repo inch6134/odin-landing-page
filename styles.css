@@ -1,0 +1,177 @@
+html {
+    box-sizing: border-box;
+}
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-block: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+body > * {
+    padding: 50px 100px;
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    padding-block: 20px;
+}
+
+
+.logo {
+    margin-right: auto;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-link {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+    background-color: #1f2937;
+    padding-bottom: 100px;
+}
+
+.hero-text {
+    flex-wrap: wrap;
+    flex-shrink: 1.5;
+}
+
+.hero-text > h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+}
+
+.hero-text > p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+.hero-text > button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 0;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.hero > img {
+    width: 400px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info > h2 {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+.image-with-subtext {
+    width: 150px;
+    font-weight: 100;
+    color: #555;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-block: 100px;
+}
+
+.quote > h2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+}
+
+.quote > h2 > span {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    float: right;
+}
+
+.call {
+    padding-block: 50px;
+}
+
+.banner {
+    background-color: #3882f6;
+    padding: 30px 100px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.banner-text > p {
+    font-size: 14px;
+}
+
+.banner > button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1f2937;
+    padding-block: 25px;
+    text-align: center;
+    color: #f9faf8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
